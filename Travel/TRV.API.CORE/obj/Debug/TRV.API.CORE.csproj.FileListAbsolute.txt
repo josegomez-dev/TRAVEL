@@ -1,0 +1,9 @@
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\bin\Debug\TRV.API.CORE.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\bin\Debug\TRV.API.CORE.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\bin\Debug\TRV.AccesoDatos.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\bin\Debug\TRV.Entidades.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\bin\Debug\TRV.AccesoDatos.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\bin\Debug\TRV.Entidades.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\obj\Debug\TRV.API.CORE.csprojResolveAssemblyReference.cache
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\obj\Debug\TRV.API.CORE.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.CORE\obj\Debug\TRV.API.CORE.pdb

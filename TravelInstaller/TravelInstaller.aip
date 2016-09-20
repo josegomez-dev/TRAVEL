@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="13.1" version="13.1" Modules="simple" RootPath="." Language="en" Id="{22D41E88-BBC9-4DE9-9CDC-552A70BB74F3}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll" Value="..\TRV.API.UTIL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Nexmo.Api.dll" Value="..\TRV.API.UTIL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.API.CORE.dll" Value="..\TRV.API.CORE\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.API.CORE.dll_1" Value="..\TRV.API.UTIL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.API.CORE.dll_2" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.API.CORE.dll_3" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.API.UTIL.dll" Value="..\TRV.API.UTIL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.API.UTIL.dll_1" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll" Value="..\TRV.AccesoDatos\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll_1" Value="..\TRV.API.CORE\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll_2" Value="..\TRV.API.UTIL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll_3" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll_4" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll" Value="..\TRV.AccesoDatos\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_1" Value="..\TRV.API.CORE\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_2" Value="..\TRV.API.CORE\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_3" Value="..\TRV.API.UTIL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_4" Value="..\TRV.API.UTIL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_5" Value="..\TRV.API.UTIL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_6" Value="..\TRV.Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_7" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_8" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.UI.LOCAL.exe" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TRV.UI.LOCAL.exe.config" Value="..\TRV.UI.LOCAL\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Nexmo.Api.dll" Value="Nexmo.Api.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll" Value="TRV.API.CORE.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll_1" Value="TRV.API.CORE.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll_2" Value="TRV.API.CORE.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll_3" Value="TRV.API.CORE.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.API.UTIL.dll" Value="TRV.API.UTIL.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.API.UTIL.dll_1" Value="TRV.API.UTIL.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll" Value="TRV.AccesoDatos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_1" Value="TRV.AccesoDatos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_2" Value="TRV.AccesoDatos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_3" Value="TRV.AccesoDatos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_4" Value="TRV.AccesoDatos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_1" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_2" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_3" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_4" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_5" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_6" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_7" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_8" Value="TRV.Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.UI.LOCAL.exe" Value="TRV.UI.LOCAL.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TRV.UI.LOCAL.exe.config" Value="TRV.UI.LOCAL.exe.config"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="TRAVEL"/>
+    <ROW Property="ProductCode" Value="1033:{667CF50C-7C32-43D0-ABC9-8B2259542355} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Your Application"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{62932C45-6284-4CC4-8488-E0CE7B305962}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Api.Maps_Dir" Directory_Parent="APPDIR" DefaultDir="API~1.MAP|Api.Maps"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="TRV.API.CORE_Dir" Directory_Parent="APPDIR" DefaultDir="TRVAPI~1.COR|TRV.API.CORE"/>
+    <ROW Directory="TRV.API.UTIL_Dir" Directory_Parent="APPDIR" DefaultDir="TRVAPI~1.UTI|TRV.API.UTIL"/>
+    <ROW Directory="TRV.AccesoDatos_Dir" Directory_Parent="APPDIR" DefaultDir="TRV~1.ACC|TRV.AccesoDatos"/>
+    <ROW Directory="TRV.Entidades_Dir" Directory_Parent="APPDIR" DefaultDir="TRV~1.ENT|TRV.Entidades"/>
+    <ROW Directory="TRV.UI.LOCAL_Dir" Directory_Parent="APPDIR" DefaultDir="TRVUI~1.LOC|TRV.UI.LOCAL"/>
+    <ROW Directory="services_Dir" Directory_Parent="Api.Maps_Dir" DefaultDir="services"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AnimateMarkers.html" ComponentId="{C30FF8D5-56B2-464E-AF99-9C0E0D9C936F}" Directory_="services_Dir" Attributes="0" KeyPath="AnimateMarkers.html" Type="0"/>
+    <ROW Component="App.config_1" ComponentId="{C3322BFE-A79D-427F-A06D-A44D87DE7419}" Directory_="TRV.UI.LOCAL_Dir" Attributes="0" KeyPath="App.config" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{EF2542B3-98DD-495B-B94E-C473977884C2}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="TRV.API.CORE_PrimaryOutput" ComponentId="{0F6B3100-C57F-4235-B2DC-6F95C89FAB64}" Directory_="TRV.API.CORE_Dir" Attributes="0" KeyPath="TRV.API.CORE.dll"/>
+    <ROW Component="TRV.API.CORE_References" ComponentId="{537A60A7-8216-407C-AE03-FCE8E0025CE4}" Directory_="TRV.API.CORE_Dir" Attributes="0" KeyPath="TRV.Entidades.dll_2"/>
+    <ROW Component="TRV.API.UTIL_PrimaryOutput" ComponentId="{5448D0D9-7556-4A82-B20B-79781422CEF4}" Directory_="TRV.API.UTIL_Dir" Attributes="0" KeyPath="TRV.API.UTIL.dll"/>
+    <ROW Component="TRV.API.UTIL_References" ComponentId="{974B1B44-14D7-4FDD-84E7-2FDBA0D7A0F1}" Directory_="TRV.API.UTIL_Dir" Attributes="0" KeyPath="TRV.Entidades.dll_5"/>
+    <ROW Component="TRV.AccesoDatos_PrimaryOutput" ComponentId="{EDF5D2CF-E53F-4B23-ACE1-AA0368E08BB8}" Directory_="TRV.AccesoDatos_Dir" Attributes="0" KeyPath="TRV.AccesoDatos.dll"/>
+    <ROW Component="TRV.AccesoDatos_References" ComponentId="{A59A3F75-375F-472C-86BA-1B0FCF2E0835}" Directory_="TRV.AccesoDatos_Dir" Attributes="0" KeyPath="TRV.Entidades.dll"/>
+    <ROW Component="TRV.Entidades_PrimaryOutput" ComponentId="{B8B8C9A4-3B72-424E-B1B0-E2154CA4201A}" Directory_="TRV.Entidades_Dir" Attributes="0" KeyPath="TRV.Entidades.dll_6"/>
+    <ROW Component="TRV.UI.LOCAL_PrimaryOutput" ComponentId="{C12C900A-4B03-4A3F-841A-1D11EC44669D}" Directory_="TRV.UI.LOCAL_Dir" Attributes="0" KeyPath="TRV.UI.LOCAL.exe"/>
+    <ROW Component="TRV.UI.LOCAL_References" ComponentId="{E3D9A523-D927-42C8-955E-5AC610396F48}" Directory_="TRV.UI.LOCAL_Dir" Attributes="0" KeyPath="TRV.Entidades.dll_8"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="AnimateMarkers.html App.config_1 ProductInformation TRV.API.CORE_PrimaryOutput TRV.API.CORE_References TRV.API.UTIL_PrimaryOutput TRV.API.UTIL_References TRV.AccesoDatos_PrimaryOutput TRV.AccesoDatos_References TRV.Entidades_PrimaryOutput TRV.UI.LOCAL_PrimaryOutput TRV.UI.LOCAL_References"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="AnimateMarkers.html" Component_="AnimateMarkers.html" FileName="ANIMAT~1.HTM|AnimateMarkers.html" Attributes="0" SourcePath="..\..\..\Api.Maps\services\AnimateMarkers.html" SelfReg="false" NextFile="Central_Text.html"/>
+    <ROW File="App.config" Component_="App.config_1" FileName="APP~1.CON|App.config" Attributes="0" SourcePath="..\TRV.UI.LOCAL\App.config" SelfReg="false" NextFile="AnimateMarkers.html"/>
+    <ROW File="Central_Text.html" Component_="AnimateMarkers.html" FileName="CENTRA~1.HTM|Central_Text.html" Attributes="0" SourcePath="..\..\..\Api.Maps\services\Central_Text.html" SelfReg="false" NextFile="Lines_Stations.html"/>
+    <ROW File="Lines_Stations.html" Component_="AnimateMarkers.html" FileName="LINES_~1.HTM|Lines_Stations.html" Attributes="0" SourcePath="..\..\..\Api.Maps\services\Lines_Stations.html" SelfReg="false" NextFile="logo.jpg"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="TRV.API.UTIL_References" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll&gt;" SelfReg="false" NextFile="Nexmo.Api.dll"/>
+    <ROW File="Nexmo.Api.dll" Component_="TRV.API.UTIL_References" FileName="NEXMOA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Nexmo.Api.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Nexmo.Api.dll&gt;" SelfReg="false" NextFile="TRV.API.CORE.dll_1"/>
+    <ROW File="TRV.API.CORE.dll" Component_="TRV.API.CORE_PrimaryOutput" FileName="TRVAPI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.API.CORE.dll&gt;" SelfReg="false" NextFile="TRV.AccesoDatos.dll_1"/>
+    <ROW File="TRV.API.CORE.dll_1" Component_="TRV.API.UTIL_References" FileName="TRVAPI~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.API.CORE.dll_1&gt;" SelfReg="false" NextFile="TRV.AccesoDatos.dll_2"/>
+    <ROW File="TRV.API.CORE.dll_2" Component_="TRV.UI.LOCAL_References" FileName="TRVAPI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.API.CORE.dll_2&gt;" SelfReg="false" NextFile="TRV.AccesoDatos.dll_3"/>
+    <ROW File="TRV.API.CORE.dll_3" Component_="TRV.UI.LOCAL_References" FileName="TRVAPI~1.DLL|TRV.API.CORE.dll" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.API.CORE.dll_3&gt;" SelfReg="false" NextFile="TRV.AccesoDatos.dll_4"/>
+    <ROW File="TRV.API.UTIL.dll" Component_="TRV.API.UTIL_PrimaryOutput" FileName="TRVAPI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.UTIL.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.API.UTIL.dll&gt;" SelfReg="false" NextFile="Newtonsoft.Json.dll"/>
+    <ROW File="TRV.API.UTIL.dll_1" Component_="TRV.UI.LOCAL_References" FileName="TRVAPI~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.UTIL.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.API.UTIL.dll_1&gt;" SelfReg="false" NextFile="TRV.API.CORE.dll_3"/>
+    <ROW File="TRV.AccesoDatos.dll" Component_="TRV.AccesoDatos_PrimaryOutput" FileName="TRVACC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll&gt;" SelfReg="false" NextFile="TRV.Entidades.dll"/>
+    <ROW File="TRV.AccesoDatos.dll_1" Component_="TRV.API.CORE_References" FileName="TRVACC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll_1&gt;" SelfReg="false" NextFile="TRV.Entidades.dll_1"/>
+    <ROW File="TRV.AccesoDatos.dll_2" Component_="TRV.API.UTIL_References" FileName="TRVACC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll_2&gt;" SelfReg="false" NextFile="TRV.Entidades.dll_3"/>
+    <ROW File="TRV.AccesoDatos.dll_3" Component_="TRV.UI.LOCAL_References" FileName="TRVACC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll_3&gt;" SelfReg="false" NextFile="TRV.Entidades.dll_7"/>
+    <ROW File="TRV.AccesoDatos.dll_4" Component_="TRV.UI.LOCAL_References" FileName="TRVACC~1.DLL|TRV.AccesoDatos.dll" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll_4&gt;" SelfReg="false" NextFile="App.config"/>
+    <ROW File="TRV.Entidades.dll" Component_="TRV.AccesoDatos_References" FileName="TRVENT~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll&gt;" SelfReg="false" NextFile="TRV.API.CORE.dll"/>
+    <ROW File="TRV.Entidades.dll_1" Component_="TRV.API.CORE_References" FileName="TRVENT~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll_1&gt;" SelfReg="false" NextFile="TRV.Entidades.dll_2"/>
+    <ROW File="TRV.Entidades.dll_2" Component_="TRV.API.CORE_References" FileName="TRVENT~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll_2&gt;" SelfReg="false" NextFile="TRV.API.UTIL.dll"/>
+    <ROW File="TRV.Entidades.dll_3" Component_="TRV.API.UTIL_References" FileName="TRVENT~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll_3&gt;" SelfReg="false" NextFile="TRV.Entidades.dll_4"/>
+    <ROW File="TRV.Entidades.dll_4" Component_="TRV.API.UTIL_References" FileName="TRVENT~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_4]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll_4&gt;" SelfReg="false" NextFile="TRV.Entidades.dll_5"/>
+    <ROW File="TRV.Entidades.dll_5" Component_="TRV.API.UTIL_References" FileName="TRVENT~1.DLL|TRV.Entidades.dll" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll_5&gt;" SelfReg="false" NextFile="TRV.Entidades.dll_6"/>
+    <ROW File="TRV.Entidades.dll_6" Component_="TRV.Entidades_PrimaryOutput" FileName="TRVENT~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_6]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll_6&gt;" SelfReg="false" NextFile="TRV.UI.LOCAL.exe"/>
+    <ROW File="TRV.Entidades.dll_7" Component_="TRV.UI.LOCAL_References" FileName="TRVENT~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_7]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll_7&gt;" SelfReg="false" NextFile="TRV.Entidades.dll_8"/>
+    <ROW File="TRV.Entidades.dll_8" Component_="TRV.UI.LOCAL_References" FileName="TRVENT~1.DLL|TRV.Entidades.dll" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.Entidades.dll_8&gt;" SelfReg="false" NextFile="TRV.API.UTIL.dll_1"/>
+    <ROW File="TRV.UI.LOCAL.exe" Component_="TRV.UI.LOCAL_PrimaryOutput" FileName="TRVUIL~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.UI.LOCAL.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.UI.LOCAL.exe&gt;" SelfReg="false" NextFile="TRV.UI.LOCAL.exe.config" DigSign="true"/>
+    <ROW File="TRV.UI.LOCAL.exe.config" Component_="TRV.UI.LOCAL_PrimaryOutput" FileName="TRVUIL~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_TRV.UI.LOCAL.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TRV.UI.LOCAL.exe.config&gt;" SelfReg="false" NextFile="TRV.API.CORE.dll_2"/>
+    <ROW File="logo.jpg" Component_="AnimateMarkers.html" FileName="logo.jpg" Attributes="0" SourcePath="..\..\..\Api.Maps\services\logo.jpg" SelfReg="false" NextFile="page.html"/>
+    <ROW File="page.html" Component_="AnimateMarkers.html" FileName="PAGE~1.HTM|page.html" Attributes="0" SourcePath="..\..\..\Api.Maps\services\page.html" SelfReg="false" NextFile="station.png"/>
+    <ROW File="station.png" Component_="AnimateMarkers.html" FileName="station.png" Attributes="0" SourcePath="..\..\..\Api.Maps\services\station.png" SelfReg="false" NextFile="station_big.png"/>
+    <ROW File="station_big.png" Component_="AnimateMarkers.html" FileName="STATIO~1.PNG|station_big.png" Attributes="0" SourcePath="..\..\..\Api.Maps\services\station_big.png" SelfReg="false" NextFile="station_biggest.png"/>
+    <ROW File="station_biggest.png" Component_="AnimateMarkers.html" FileName="STATIO~2.PNG|station_biggest.png" Attributes="0" SourcePath="..\..\..\Api.Maps\services\station_biggest.png" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Nexmo.Api.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Nexmo.Api.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Nexmo.Api.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.API.CORE.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.API.CORE.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.API.CORE.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.API.CORE.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.API.CORE.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.API.CORE.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.API.CORE.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.API.CORE.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.CORE.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.API.UTIL.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.API.UTIL.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.UTIL.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.API.UTIL.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.API.UTIL.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.API.UTIL.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.AccesoDatos.dll_4" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.AccesoDatos.dll_4]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.AccesoDatos.dll_4]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll_4" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_4]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_4]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll_5" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_5]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_5]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll_6" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_6]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_6]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll_7" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_7]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_7]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.Entidades.dll_8" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.Entidades.dll_8]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.Entidades.dll_8]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.UI.LOCAL.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.UI.LOCAL.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.UI.LOCAL.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TRV.UI.LOCAL.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_TRV.UI.LOCAL.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_TRV.UI.LOCAL.exe.config]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{65410d1a-b3ec-40a7-9985-a5f851c8c605}" ProjectName="TRV.AccesoDatos" OutputGroup="PrimaryOutput" OutputFile="TRV.AccesoDatos.dll"/>
+    <ROW ProjectId="{65410d1a-b3ec-40a7-9985-a5f851c8c605}" ProjectName="TRV.AccesoDatos" OutputGroup="References" OutputFile="TRV.Entidades.dll"/>
+    <ROW ProjectId="{d25405e8-34b4-4f86-822f-7496f784d5ca}" ProjectName="TRV.API.CORE" OutputGroup="PrimaryOutput" OutputFile="TRV.API.CORE.dll"/>
+    <ROW ProjectId="{d25405e8-34b4-4f86-822f-7496f784d5ca}" ProjectName="TRV.API.CORE" OutputGroup="References" OutputFile="TRV.AccesoDatos.dll_1"/>
+    <ROW ProjectId="{d25405e8-34b4-4f86-822f-7496f784d5ca}" ProjectName="TRV.API.CORE" OutputGroup="References" OutputFile="TRV.Entidades.dll_1"/>
+    <ROW ProjectId="{d25405e8-34b4-4f86-822f-7496f784d5ca}" ProjectName="TRV.API.CORE" OutputGroup="References" OutputFile="TRV.Entidades.dll_2"/>
+    <ROW ProjectId="{c34993b7-9dd4-4ddb-8a17-68671bc75151}" ProjectName="TRV.API.UTIL" OutputGroup="PrimaryOutput" OutputFile="TRV.API.UTIL.dll"/>
+    <ROW ProjectId="{c34993b7-9dd4-4ddb-8a17-68671bc75151}" ProjectName="TRV.API.UTIL" OutputGroup="References" OutputFile="Newtonsoft.Json.dll"/>
+    <ROW ProjectId="{c34993b7-9dd4-4ddb-8a17-68671bc75151}" ProjectName="TRV.API.UTIL" OutputGroup="References" OutputFile="Nexmo.Api.dll"/>
+    <ROW ProjectId="{c34993b7-9dd4-4ddb-8a17-68671bc75151}" ProjectName="TRV.API.UTIL" OutputGroup="References" OutputFile="TRV.API.CORE.dll_1"/>
+    <ROW ProjectId="{c34993b7-9dd4-4ddb-8a17-68671bc75151}" ProjectName="TRV.API.UTIL" OutputGroup="References" OutputFile="TRV.AccesoDatos.dll_2"/>
+    <ROW ProjectId="{c34993b7-9dd4-4ddb-8a17-68671bc75151}" ProjectName="TRV.API.UTIL" OutputGroup="References" OutputFile="TRV.Entidades.dll_3"/>
+    <ROW ProjectId="{c34993b7-9dd4-4ddb-8a17-68671bc75151}" ProjectName="TRV.API.UTIL" OutputGroup="References" OutputFile="TRV.Entidades.dll_4"/>
+    <ROW ProjectId="{c34993b7-9dd4-4ddb-8a17-68671bc75151}" ProjectName="TRV.API.UTIL" OutputGroup="References" OutputFile="TRV.Entidades.dll_5"/>
+    <ROW ProjectId="{c6a2dfa9-5eb3-42f3-9864-aacaba27e166}" ProjectName="TRV.Entidades" OutputGroup="PrimaryOutput" OutputFile="TRV.Entidades.dll_6"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="PrimaryOutput" OutputFile="TRV.UI.LOCAL.exe"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="PrimaryOutput" OutputFile="TRV.UI.LOCAL.exe.config"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.API.CORE.dll_2"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.AccesoDatos.dll_3"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.Entidades.dll_7"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.Entidades.dll_8"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.API.UTIL.dll_1"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.API.CORE.dll_3"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.AccesoDatos.dll_4"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.Entidades.dll_8"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.Entidades.dll_8"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.Entidades.dll_8"/>
+    <ROW ProjectId="{de50abc3-a8ee-4132-ad91-690d9f62c0c4}" ProjectName="TRV.UI.LOCAL" OutputGroup="References" OutputFile="TRV.Entidades.dll_8"/>
+  </COMPONENT>
+</DOCUMENT>

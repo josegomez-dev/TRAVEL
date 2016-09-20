@@ -1,0 +1,7 @@
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.AccesoDatos\bin\Debug\TRV.AccesoDatos.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.AccesoDatos\bin\Debug\TRV.AccesoDatos.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.AccesoDatos\bin\Debug\TRV.Entidades.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.AccesoDatos\bin\Debug\TRV.Entidades.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.AccesoDatos\obj\Debug\TRV.AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.AccesoDatos\obj\Debug\TRV.AccesoDatos.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.AccesoDatos\obj\Debug\TRV.AccesoDatos.pdb

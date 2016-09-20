@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE50ABC3-A8EE-4132-AD91-690D9F62C0C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TRV.UI.LOCAL</RootNamespace>
+    <AssemblyName>TRV.UI.LOCAL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TRV.UI.LOCAL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TRV.UI.LOCAL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TRV.UI.LOCAL.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="microsoft.msxml, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAsiento.Designer.vb">
+      <DependentUpon>frmAsiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBitacora.Designer.vb">
+      <DependentUpon>frmBitacora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBitacora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvenio.Designer.vb">
+      <DependentUpon>frmConvenio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConvenio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboard.Designer.vb">
+      <DependentUpon>frmDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpresa.designer.vb">
+      <DependentUpon>frmEmpresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmpresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstacion.designer.vb">
+      <DependentUpon>frmEstacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistorialViajes.Designer.vb">
+      <DependentUpon>frmHistorialViajes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistorialViajes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHorarioLinea.Designer.vb">
+      <DependentUpon>frmHorarioLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHorarioLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.vb">
+      <DependentUpon>frmInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLinea.Designer.vb">
+      <DependentUpon>frmLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePermission.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotificacion.Designer.vb">
+      <DependentUpon>frmNotificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPermiso.Designer.vb">
+      <DependentUpon>frmPermiso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPermiso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrecioTiquete.Designer.vb">
+      <DependentUpon>frmPrecioTiquete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrecioTiquete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmPuesto.Designer.vb">
+      <DependentUpon>frmPuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmR_CantPasajerosEstacion.Designer.vb">
+      <DependentUpon>frmR_CantPasajerosEstacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmR_CantPasajerosEstacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmR_CapacidadTrenEstacion.Designer.vb">
+      <DependentUpon>frmR_CapacidadTrenEstacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmR_CapacidadTrenEstacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmR_HistorialVagones.Designer.vb">
+      <DependentUpon>frmR_HistorialVagones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmR_HistorialVagones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmR_Ingresos.Designer.vb">
+      <DependentUpon>frmR_Ingresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmR_Ingresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmR_PorcenCapacidadInstalada.Designer.vb">
+      <DependentUpon>frmR_PorcenCapacidadInstalada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmR_PorcenCapacidadInstalada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmR_TiempoBajaLinea.Designer.vb">
+      <DependentUpon>frmR_TiempoBajaLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmR_TiempoBajaLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmR_TiempoTrabajoLinea.Designer.vb">
+      <DependentUpon>frmR_TiempoTrabajoLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmR_TiempoTrabajoLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipoTiquete.Designer.vb">
+      <DependentUpon>frmTipoTiquete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipoTiquete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTren.Designer.vb">
+      <DependentUpon>frmTren.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTren.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuario.Designer.vb">
+      <DependentUpon>frmUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVagon.Designer.vb">
+      <DependentUpon>frmVagon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVagon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="remAPIMaps.vb" />
+    <Compile Include="RolesPermisos.vb" />
+    <Compile Include="Splash.designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilitario.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAsiento.resx">
+      <DependentUpon>frmAsiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBitacora.resx">
+      <DependentUpon>frmBitacora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvenio.resx">
+      <DependentUpon>frmConvenio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboard.resx">
+      <DependentUpon>frmDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpresa.resx">
+      <DependentUpon>frmEmpresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstacion.resx">
+      <DependentUpon>frmEstacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistorialViajes.resx">
+      <DependentUpon>frmHistorialViajes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHorarioLinea.resx">
+      <DependentUpon>frmHorarioLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLinea.resx">
+      <DependentUpon>frmLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotificacion.resx">
+      <DependentUpon>frmNotificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPermiso.resx">
+      <DependentUpon>frmPermiso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrecioTiquete.resx">
+      <DependentUpon>frmPrecioTiquete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPuesto.resx">
+      <DependentUpon>frmPuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmR_CantPasajerosEstacion.resx">
+      <DependentUpon>frmR_CantPasajerosEstacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmR_CapacidadTrenEstacion.resx">
+      <DependentUpon>frmR_CapacidadTrenEstacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmR_HistorialVagones.resx">
+      <DependentUpon>frmR_HistorialVagones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmR_Ingresos.resx">
+      <DependentUpon>frmR_Ingresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmR_PorcenCapacidadInstalada.resx">
+      <DependentUpon>frmR_PorcenCapacidadInstalada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmR_TiempoBajaLinea.resx">
+      <DependentUpon>frmR_TiempoBajaLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmR_TiempoTrabajoLinea.resx">
+      <DependentUpon>frmR_TiempoTrabajoLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipoTiquete.resx">
+      <DependentUpon>frmTipoTiquete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTren.resx">
+      <DependentUpon>frmTren.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuario.resx">
+      <DependentUpon>frmUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVagon.resx">
+      <DependentUpon>frmVagon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verde.png" />
+    <None Include="Resources\usuario.png" />
+    <None Include="Resources\underground--1-.png" />
+    <None Include="Resources\underground.png" />
+    <None Include="Resources\tren_negro.png" />
+    <None Include="Resources\tren.png" />
+    <None Include="Resources\splash_1.jpg" />
+    <None Include="Resources\settings_negro1.png" />
+    <None Include="Resources\settings_negro.png" />
+    <None Include="Resources\settings_morado.png" />
+    <None Include="Resources\seguridad_2.png" />
+    <None Include="Resources\seguridad_1.png" />
+    <None Include="Resources\seguridad.png" />
+    <None Include="Resources\seg_02.png" />
+    <None Include="Resources\seg_01.png" />
+    <None Include="Resources\salir.png" />
+    <None Include="Resources\reportes_2.png" />
+    <None Include="Resources\reportes.png" />
+    <None Include="Resources\repor_05.png" />
+    <None Include="Resources\repor_01.png" />
+    <None Include="Resources\refrescar.png" />
+    <None Include="Resources\padlock1.png" />
+    <None Include="Resources\padlock_black.png" />
+    <None Include="Resources\padlock.png" />
+    <None Include="Resources\newspaper_black.png" />
+    <None Include="Resources\inicio_sesion.png" />
+    <None Include="Resources\inicio_1.png" />
+    <None Include="Resources\iniciar_2.png" />
+    <None Include="Resources\iniciar.png" />
+    <None Include="Resources\id-card.png" />
+    <None Include="Resources\500px-Green_Light_Icon.svg_.png" />
+    <None Include="Resources\500px-green_light_icon-svg_.png" />
+    <None Include="Resources\500px-green_light_icon-svg_1.png" />
+    <None Include="Resources\2000px-red_light_icon-svg %283%29.png" />
+    <None Include="Resources\2000px-red_light_icon-svg %283%291.png" />
+    <None Include="Resources\2000px-red_light_icon-svg.png" />
+    <None Include="Resources\2000px-yellow_light_icon-svg.png" />
+    <None Include="Resources\1467804409_InterfaceExpendet-10.png" />
+    <None Include="Resources\boton-de-actualizar-pagina.png" />
+    <None Include="Resources\config_01.png" />
+    <None Include="Resources\config_02.png" />
+    <None Include="Resources\config_03.png" />
+    <None Include="Resources\config_04.png" />
+    <None Include="Resources\config_05.png" />
+    <None Include="Resources\config_06.png" />
+    <None Include="Resources\config_07.png" />
+    <None Include="Resources\configuracion.png" />
+    <None Include="Resources\configuracion_2.png" />
+    <None Include="Resources\configuracion_4.png" />
+    <None Include="Resources\configuracion_41.png" />
+    <None Include="Resources\contraseña.png" />
+    <None Include="Resources\dashboard.png" />
+    <None Include="Resources\dashboard_2.png" />
+    <None Include="Resources\detender.png" />
+    <None Include="Resources\detener_2.png" />
+    <None Include="Resources\editar.png" />
+    <None Include="Resources\fondo_general.png" />
+    <None Include="Resources\fondo_liso.png" />
+    <None Include="Resources\FondoEstaciones.png" />
+    <None Include="Resources\FondoGeneral.png" />
+    <None Include="Resources\fondoInicioSesion.png" />
+    <None Include="Resources\FondoLíneas.png" />
+    <None Include="Resources\FondoPrincipal.png" />
+    <None Include="Resources\FondoTren.png" />
+    <Content Include="Resources\icono.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TRV.API.CORE\TRV.API.CORE.csproj">
+      <Project>{d25405e8-34b4-4f86-822f-7496f784d5ca}</Project>
+      <Name>TRV.API.CORE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TRV.API.UTIL\TRV.API.UTIL.csproj">
+      <Project>{C34993B7-9DD4-4DDB-8A17-68671BC75151}</Project>
+      <Name>TRV.API.UTIL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TRV.Entidades\TRV.Entidades.csproj">
+      <Project>{C6A2DFA9-5EB3-42F3-9864-AACABA27E166}</Project>
+      <Name>TRV.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

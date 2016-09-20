@@ -1,0 +1,4 @@
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.Entidades\bin\Debug\TRV.Entidades.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.Entidades\bin\Debug\TRV.Entidades.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.Entidades\obj\Debug\TRV.Entidades.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.Entidades\obj\Debug\TRV.Entidades.pdb

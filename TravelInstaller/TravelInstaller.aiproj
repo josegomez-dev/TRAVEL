@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">All</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>5ec76e2f-6236-4a3c-a528-0f3b345c9499</ProjectGuid>
+    <OutputType>msi</OutputType>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>TravelInstaller.aip</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <IsWindowsApplication>True</IsWindowsApplication>
+    <AssemblyName>TravelInstaller</AssemblyName>
+    <Name>TravelInstaller</Name>
+    <RootNamespace>TravelInstaller</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'All' ">
+    <DebugSymbols>false</DebugSymbols>
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="TravelInstaller.aip">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TRV.AccesoDatos\TRV.AccesoDatos.csproj">
+      <Name>TRV.AccesoDatos</Name>
+      <Project>{65410d1a-b3ec-40a7-9985-a5f851c8c605}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
+    </ProjectReference>
+    <ProjectReference Include="..\TRV.API.CORE\TRV.API.CORE.csproj">
+      <Name>TRV.API.CORE</Name>
+      <Project>{d25405e8-34b4-4f86-822f-7496f784d5ca}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
+    </ProjectReference>
+    <ProjectReference Include="..\TRV.API.UTIL\TRV.API.UTIL.csproj">
+      <Name>TRV.API.UTIL</Name>
+      <Project>{c34993b7-9dd4-4ddb-8a17-68671bc75151}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
+    </ProjectReference>
+    <ProjectReference Include="..\TRV.Entidades\TRV.Entidades.csproj">
+      <Name>TRV.Entidades</Name>
+      <Project>{c6a2dfa9-5eb3-42f3-9864-aacaba27e166}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
+    </ProjectReference>
+    <ProjectReference Include="..\TRV.UI.LOCAL\TRV.UI.LOCAL.vbproj">
+      <Name>TRV.UI.LOCAL</Name>
+      <Project>{de50abc3-a8ee-4132-ad91-690d9f62c0c4}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Caphyon\Advanced Installer\AdvInstExtTasks.Targets" />
+</Project>

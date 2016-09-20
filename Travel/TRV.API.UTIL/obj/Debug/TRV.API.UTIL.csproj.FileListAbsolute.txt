@@ -1,0 +1,14 @@
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\TRV.API.UTIL.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\TRV.API.UTIL.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\Nexmo.Api.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\TRV.API.CORE.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\TRV.Entidades.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\TRV.AccesoDatos.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\TRV.API.CORE.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\TRV.Entidades.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\bin\Debug\TRV.AccesoDatos.pdb
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\obj\Debug\TRV.API.UTIL.csprojResolveAssemblyReference.cache
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\obj\Debug\TRV.API.UTIL.dll
+C:\Users\jgm16\Desktop\TravelFinal\Travel\TRV.API.UTIL\obj\Debug\TRV.API.UTIL.pdb

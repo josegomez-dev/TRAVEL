@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65410D1A-B3EC-40A7-9985-A5F851C8C605}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TRV.AccesoDatos</RootNamespace>
+    <AssemblyName>TRV.AccesoDatos</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CRUD\AccionCrudFactory.cs" />
+    <Compile Include="CRUD\AsientoCrudFactory.cs" />
+    <Compile Include="CRUD\Base\CrudFactory.cs" />
+    <Compile Include="CRUD\ClienteCrudFactory.cs" />
+    <Compile Include="CRUD\ConvenioCrudFactory.cs" />
+    <Compile Include="CRUD\HistorialViajesCrudFactory.cs" />
+    <Compile Include="CRUD\EstacionCrudFactory.cs" />
+    <Compile Include="CRUD\HorarioCrudFactory.cs" />
+    <Compile Include="CRUD\LineaCrudFactory.cs" />
+    <Compile Include="CRUD\IncidenciaCrudFactory.cs" />
+    <Compile Include="CRUD\MensajeCrudFactory.cs" />
+    <Compile Include="CRUD\PermisoCrudFactory.cs" />
+    <Compile Include="CRUD\PuestoCrudFactory.cs" />
+    <Compile Include="CRUD\TrenCrudFactory.cs" />
+    <Compile Include="CRUD\EmpresaCrudFactory.cs" />
+    <Compile Include="CRUD\TipoTiqueteCrudFactory.cs" />
+    <Compile Include="CRUD\TiqueteCrudFactory.cs" />
+    <Compile Include="CRUD\UsuarioCrudFactory.cs" />
+    <Compile Include="CRUD\VagonCrudFactory.cs" />
+    <Compile Include="Dao\SqlDao.cs" />
+    <Compile Include="Dao\SqlOperation.cs" />
+    <Compile Include="Exceptions\GestorExcepcion.cs" />
+    <Compile Include="Mapper\AccionMapper.cs" />
+    <Compile Include="Mapper\AsientoMapper.cs" />
+    <Compile Include="Mapper\Base\EntityMapper.cs" />
+    <Compile Include="Mapper\Base\IObjectMapper.cs" />
+    <Compile Include="Mapper\Base\ISqlStament.cs" />
+    <Compile Include="Mapper\ClienteMapper.cs" />
+    <Compile Include="Mapper\ConvenioMapper.cs" />
+    <Compile Include="Mapper\EmpresaMapper.cs" />
+    <Compile Include="Mapper\EstacionMapper.cs" />
+    <Compile Include="Mapper\HistorialViajesMapper.cs" />
+    <Compile Include="Mapper\HorarioMapper.cs" />
+    <Compile Include="Mapper\IncidenciaMapper.cs" />
+    <Compile Include="Mapper\LineaMapper.cs" />
+    <Compile Include="Mapper\MensajeMapper.cs" />
+    <Compile Include="Mapper\PermisoMapper.cs" />
+    <Compile Include="Mapper\PuestoMapper.cs" />
+    <Compile Include="Mapper\TipoTiqueteMapper.cs" />
+    <Compile Include="Mapper\TiqueteMapper.cs" />
+    <Compile Include="Mapper\TrenMapper.cs" />
+    <Compile Include="Mapper\UsuarioMapper.cs" />
+    <Compile Include="Mapper\VagonMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TRV.Entidades\TRV.Entidades.csproj">
+      <Project>{c6a2dfa9-5eb3-42f3-9864-aacaba27e166}</Project>
+      <Name>TRV.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
