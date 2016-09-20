@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>472</x>
+      <y>288</y>
+      <w>256</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>MensajeriaUtil
+--
+- UsuarioAuth: Usuario
+--
+*+ MensajeriaUtil(usuario: Usuario)*
+*+ SetCredentials(key, pa$$w0rd) : SmptClient*
+*+ SendMessage(EntidadBase) : string *</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>368</x>
+      <y>152</y>
+      <w>168</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Util
+--
+- UsuarioAuth: Usuario
+- gestorEx: GestorExcepciones
+--
+*+ Util(usuario: Usuario)*
+
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>288</y>
+      <w>200</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>ReporteriaUtil
+--
+- UsuarioAuth: Usuario
+--
+*+ ReporteriaUtil(usuario: Usuario)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>848</x>
+      <y>288</y>
+      <w>216</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>GestorMail
+--
++ UsuarioAuth: Usuario
++ Mensajeria: MensajeriaUtil
+--
+*+ GestorMail(usuario: Usuario)*
+*+ SendMail(addressee, subject: string, *
+*                 content: string) : bool*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>824</x>
+      <y>408</y>
+      <w>272</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>GestorSMS
+--
++ UsuarioAuth: Usuario
++ Mensajeria: MensajeriaUtil 
+--
+*+ GestorSMS(usuario: Usuario)*
+*+ SendNotify(user: Usuario, *
+*                        message: string)*
+*+ SendMassiveNotify(lstUser: List&lt;Usuario&gt;, *
+*                                     message: string)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>216</y>
+      <w>176</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;200.0;70.0;200.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>216</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;140.0;70.0;10.0;70.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>224</x>
+      <y>440</y>
+      <w>248</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>GestorSsrs
+--
+
+--
+*+ GestorSsrs(usuario: Usuario)*
+*+ RunReport(path: string, reportCode: string, *
+*                       dicParams: Dictionary)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>328</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>368</y>
+      <w>248</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0;290.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>344</y>
+      <w>24</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>376</x>
+      <y>64</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+*Utilitaries*
+&lt;&lt;Componente&gt;&gt;</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
